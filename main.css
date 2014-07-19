@@ -1,0 +1,117 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+	background-image: url("images/bgwoodfloor.jpg");
+}	
+
+h2 {
+	font-family: "Calligraffitti";
+	font-size: 45px;
+	text-align: center;
+	margin: 15px;
+	color: #1628AB;
+}
+
+#app {
+	margin: 100px auto 100px auto;
+	background-color: #FCFBE3;
+	font-family: "Wire One";
+	font-size: 28px;
+	padding: 10px;
+	min-height: 400px;
+	width: 350px;
+	border-radius: 51px;
+	border: 1px solid #fcfbe5;
+}
+
+#input {
+	margin-bottom: 20px;
+	height: 45px;
+	text-align: center;
+}
+
+input {
+	height: 20px;
+	width: 300px;
+	border-radius: 2px;
+}
+
+button {
+	font-family: "Marvel";
+	width: 70px;
+	font-size: 20px;
+	margin: 10px 5px 5px 5px;
+	padding: 5px;
+	border-radius: 2px;
+	background-color: #d0d4ee;
+	border: 1px solid #b9bee5;
+}
+
+
+ul {
+	margin: 50px 10px 10px 10px;
+	padding: 10px 20px 10px 20px;
+	min-height: 150px;
+}
+
+li {
+	padding: 1px auto 1px auto;
+	border-bottom: 1px solid black;
+}
+
+.complete {
+	text-decoration: line-through;
+}
+
+#footie {
+	text-align: center;
+	margin-bottom: 5px;
+}
