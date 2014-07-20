@@ -1,10 +1,17 @@
 $(document).ready(function(){
-	
-	var item = $("#iteminput").val();
-	
 
 	$("#add").on("click", function(){
-		$("ul").append("<li>" + (item) + "</li>")
+		var item = $("#iteminput").val();
+		$("ul").append("<li>" + item + "</li>")
+		$("input").val(" ");
+	});
+
+	$(document).on("click", "li", function() {
+  		$(this).toggleClass("complete");
+	});
+
+	$(document).on("dblclick", "li", function() {
+		$(this).remove();
 	});
 
 	$("#hide").on("click", function() {
@@ -14,9 +21,4 @@ $(document).ready(function(){
 			}
 	});
 
-	$( "li" ).click(function() {
-  		$(this).toggleClass("complete");
-});
-
-	
 })

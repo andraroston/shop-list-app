@@ -115,6 +115,11 @@ li {
 	text-decoration: line-through;
 }
 
+.instructions {
+	text-align: center;
+	font-size: 25px;
+}
+
 #footie {
 	text-align: center;
 	margin-bottom: 5px;
@@ -124,5 +129,8 @@ li {
 	font-size: 28px;
 	font-family: "Wire One";
 	background-color: #FCFBE3;
-	border: 1px solid #fcfbe5;
+	border: 1px solid black;
+	margin-top: 10px;
+	border-radius: 5px;
+
 }
