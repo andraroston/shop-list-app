@@ -1,13 +1,11 @@
 $(document).ready(function(){
 	
-	var item = $('#iteminput').val();
+	var item = $("#iteminput").val();
 	
 
 	$("#add").on("click", function(){
 		$("ul").append("<li>" + (item) + "</li>")
 	});
-	
-
 
 	$("#hide").on("click", function() {
 		$(this).closest("#app").find("li")
@@ -15,6 +13,10 @@ $(document).ready(function(){
 				$(".complete").remove()
 			}
 	});
+
+	$( "li" ).click(function() {
+  		$(this).toggleClass("complete");
+});
 
 	
 })
