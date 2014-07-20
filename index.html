@@ -5,6 +5,8 @@
 	<link href='http://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Marvel' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="app.js"></script>
 	<meta charset="UTF-8">
 	<title>don't forget...</title>
 </head>
@@ -13,17 +15,17 @@
 		<h2>don't forget...</h2>
 		<div id="list">
 			<div id="input">
-				<input type="text" name="add item">
-				<button>add</button>
-			</div>
-		</div>	
+				<input type="text" id="iteminput" name="add item" placeholder="What do you need?">
+				<button type="submit" id="add">add</button>
+			</div>	
 			<ul>
 				<li class="complete">Bread</li>
 				<li class="complete">Milk</li>
 				<li>Eggs</li>
 				<li>Red Wine</li>
 			</ul>
-		<div id="footie">hide purchased items</div>			
+		</div>	
+		<div id="footie"><button type="submit" id="hide">hide purchased items</div>			
 	</div>	
 </body>
 </html>

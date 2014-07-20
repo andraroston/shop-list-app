@@ -50,13 +50,14 @@ table {
 
 body {
 	background-image: url("images/bgwoodfloor.jpg");
+	background-size: 100%;
 }	
 
 h2 {
 	font-family: "Calligraffitti";
 	font-size: 45px;
 	text-align: center;
-	margin: 15px;
+	margin: 15px 15px 20px 15px;
 	color: #1628AB;
 }
 
@@ -79,12 +80,14 @@ h2 {
 }
 
 input {
-	height: 20px;
+	height: 22px;
 	width: 300px;
 	border-radius: 2px;
+	font-family: "Wire One";
+	font-size: 22px;
 }
 
-button {
+#add {
 	font-family: "Marvel";
 	width: 70px;
 	font-size: 20px;
@@ -99,7 +102,7 @@ button {
 ul {
 	margin: 50px 10px 10px 10px;
 	padding: 10px 20px 10px 20px;
-	min-height: 150px;
+	min-height: 250px;
 }
 
 li {
@@ -114,4 +117,11 @@ li {
 #footie {
 	text-align: center;
 	margin-bottom: 5px;
+}
+
+#hide {
+	font-size: 28px;
+	font-family: "Wire One";
+	background-color: #FCFBE3;
+	border: 1px solid #fcfbe5;
 }
