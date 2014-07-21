@@ -6,6 +6,12 @@ $(document).ready(function(){
 		$("input").val(" ");
 	});
 
+	$(document).keyup(function(e){
+		if (e.which==13) {
+			$("#add").click();
+		}
+	});
+
 	$(document).on("click", "li", function() {
   		$(this).toggleClass("complete");
 	});
